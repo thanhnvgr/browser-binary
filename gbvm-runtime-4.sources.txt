@@ -1,0 +1,50 @@
+What this distro holds, and where the source of each part is.
+
+Cloud Hypervisor (Apache-2.0 AND BSD-3-Clause)
+  https://github.com/cloud-hypervisor/cloud-hypervisor/releases/download/v54.0/cloud-hypervisor-static
+  source: https://github.com/cloud-hypervisor/cloud-hypervisor/tree/v54.0
+
+Alpine 3.24 packages: name, version, (licence), origin.
+  source: https://gitlab.alpinelinux.org/alpine/aports/-/tree/3.24-stable/main/<origin>
+  (or community/<origin>)
+  acl-libs 2.3.2-r1 (LGPL-2.1-or-later AND GPL-2.0-or-later) origin acl
+  alpine-baselayout 3.7.2-r1 (GPL-2.0-only) origin alpine-baselayout
+  alpine-baselayout-data 3.7.2-r1 (GPL-2.0-only) origin alpine-baselayout
+  alpine-keys 2.6-r0 (MIT) origin alpine-keys
+  alpine-release 3.24.3-r0 (MIT) origin alpine-base
+  apk-tools 3.0.8-r0 (GPL-2.0-only) origin apk-tools
+  bash 5.3.9-r1 (GPL-3.0-or-later) origin bash
+  busybox 1.37.0-r31 (GPL-2.0-only) origin busybox
+  busybox-binsh 1.37.0-r31 (GPL-2.0-only) origin busybox
+  ca-certificates-bundle 20261020-r0 (MPL-2.0 AND MIT) origin ca-certificates
+  iproute2 7.0.0-r0 (GPL-2.0-or-later) origin iproute2
+  iproute2-minimal 7.0.0-r0 (GPL-2.0-or-later) origin iproute2
+  iproute2-ss 7.0.0-r0 (GPL-2.0-or-later) origin iproute2
+  iproute2-tc 7.0.0-r0 (GPL-2.0-or-later) origin iproute2
+  iptables 1.8.13-r0 (GPL-2.0-or-later) origin iptables
+  libapk 3.0.8-r0 (GPL-2.0-only) origin apk-tools
+  libcap-ng 0.8.5-r2 (GPL-2.0-or-later AND LGPL-2.1-or-later) origin libcap-ng
+  libcap2 2.78-r0 (BSD-3-Clause OR GPL-2.0-only) origin libcap
+  libcrypto3 3.5.9-r0 (Apache-2.0) origin openssl
+  libelf 0.195-r0 (GPL-3.0-or-later AND ( GPL-2.0-or-later OR LGPL-3.0-or-later )) origin elfutils
+  libgcc 15.2.0-r5 (GPL-2.0-or-later AND LGPL-2.1-or-later) origin gcc
+  libmnl 1.0.5-r2 (LGPL-2.1-or-later) origin libmnl
+  libncursesw 6.6_p20260516-r0 (X11) origin ncurses
+  libnftnl 1.3.1-r0 (GPL-2.0-or-later) origin libnftnl
+  libseccomp 2.6.1-r0 (LGPL-2.1-or-later) origin libseccomp
+  libssl3 3.5.9-r0 (Apache-2.0) origin openssl
+  libstdc++ 15.2.0-r5 (GPL-2.0-or-later AND LGPL-2.1-or-later) origin gcc
+  libxtables 1.8.13-r0 (GPL-2.0-or-later) origin iptables
+  musl 1.2.6-r3 (MIT) origin musl
+  musl-utils 1.2.6-r3 (MIT AND BSD-2-Clause AND GPL-2.0-or-later) origin musl
+  ncurses-terminfo-base 6.6_p20260516-r0 (X11) origin ncurses
+  passt 2026.05.26-r0 (BSD-3-Clause AND GPL-2.0-or-later) origin passt
+  readline 8.3.3-r1 (GPL-3.0-or-later) origin readline
+  scanelf 1.3.9-r1 (GPL-2.0-only) origin pax-utils
+  socat 1.8.1.3-r0 (GPL-2.0-only WITH OpenSSL-Exception) origin socat
+  ssl_client 1.37.0-r31 (GPL-2.0-only) origin busybox
+  tar 1.35-r5 (GPL-3.0-or-later) origin tar
+  virtiofsd 1.13.3-r0 (Apache-2.0 AND BSD-3-Clause) origin virtiofsd
+  zlib 1.3.2-r1 (Zlib) origin zlib
+  zstd 1.5.7-r2 (BSD-3-Clause OR GPL-2.0-or-later) origin zstd
+  zstd-libs 1.5.7-r2 (BSD-3-Clause OR GPL-2.0-or-later) origin zstd
